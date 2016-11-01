@@ -12,7 +12,6 @@
 }
 
 .wrapper {
-	background-color: black;
 	margin: 0 auto;
 	width: 70%;
 }
@@ -24,6 +23,7 @@
 	display:table;
 	
 }
+
 
 /* ========================== MEDIA ============================== */
 img {
@@ -109,7 +109,7 @@ img {
 
 /* Fraction Amounts */
 
-.col-2-3 { 
+.col-2-3, .col-8-12  { 
 	width: 66.66%;
 }
 
@@ -172,6 +172,32 @@ img {
   .col-7-12 {
 	width: 58.33%;
 } 	
+
+
+	
+
+
+
+
+.f-left {
+	float: left;
+}
+
+.f-right {
+	float: right;
+}
+
+
+.block-center {
+	float: none;
+	margin: 0 auto;
+}
+
+	
+	
+	
+	
+	
 	
 	
 
@@ -199,7 +225,7 @@ img {
 /* ========================= COLUMNS ============================== */
 /* % must divide into an equal break.  keep percentages at least 20%, if it keeps the same percentage, you don't need to rewrite it */ 
 	
-	.col-1-6:nth-child(3), .col-1-7, .col-1-8:nth-child(4), .col-1-9:nth-child(3), .col-1-9:nth-child(6), .col-1-10:nth-child(5), .col-1-11, .col-1-12:nth-child(4), .col-1-12:nth-child(8), col-1-6-sm {
+	.col-1-6:nth-child(3), .col-1-7, .col-1-8:nth-child(4), .col-1-9:nth-child(3), .col-1-9:nth-child(6), .col-1-10:nth-child(5), .col-1-11, .col-1-12:nth-child(4), .col-1-12:nth-child(8), col-1-6-sm  {
 		padding-right: 0;    
 	}
 	
