@@ -81,7 +81,7 @@ h2:first-of-type {
 }
 
 .col-1-2 {
-	width: 100%;	
+	width: 50%;	
 }
 
 .col-1-3 {
@@ -89,7 +89,7 @@ h2:first-of-type {
 }
 
 .col-1-4 {
-	width: 100%;
+	width: 25%;
 }
 
 .col-1-5 {
@@ -192,7 +192,7 @@ h2:first-of-type {
 
 
 
-.f-left, .f-right, .block-center {
+.f-right, .block-center {
 	float: none;
 	margin: 0 auto;
 }
@@ -201,10 +201,22 @@ h2:first-of-type {
 
 
 	
+@media (min-width: 480px) {	
+	.f-left {
+	float: left;
+}
+
+.f-right {
+	float: right;
+}
+
+
+.block-center {
+	float: none;
+	margin: 0 auto;
+}
 	
-	
-	
-	
+}
 	
 	
 
@@ -220,12 +232,12 @@ h2:first-of-type {
 
 /* Fix the amounts to not leave any gap.  Still have to cover 100%.  Change amounts to not have more than five or six boxes. Make all of them look equally distibuted at a large display and both a small display. */
 
-@media (min-width: 480px) {
+@media (max-width: 480px) {
 	
 	
 /* ======================= SITE STRUCTURE ========================= */	
 	.wrapper {
-		width: 85%;
+		width: 95%;
 	}
 	
 	
@@ -262,7 +274,7 @@ h2:first-of-type {
 		width: 66.66%;
 	}
 	
-	.col-1-7, .col-1-11 {
+	.col-1-7, .col-1-11, .col-1-4 {
 		width: 100%;
 	}
 
@@ -331,30 +343,12 @@ h2:first-of-type {
 	
 	
 	
-.f-left {
-	float: left;
-}
 
-.f-right {
-	float: right;
-}
-
-
-.block-center {
-	float: none;
-	margin: 0 auto;
-}
 
 				
 
 }
 
 	
-	
-@media (max-width: 420px) {
-	.wrapper {
-		width: 95%;
-	}
-}
 	
 	/* break points for smaller display sizes */
