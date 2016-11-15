@@ -19,14 +19,14 @@
 <header> <!--Div for bg color-->
 	<div class="wrapper">
     	<nav class="row">
-        	<div class="col-1-6">
-            	<h1><img><a><img src="img/logo.png" alt="Flow Creative" width="200"></a></h1>
+        	<div class="col-1-6 f-left">
+            	<h1><a href="#" target="_blank" class="sprite-2 logo"></a></h1>
             </div>    
             <div class="col-1-4 f-right">
                	<ul>
-                	<li>Home</li>
-               		<li>Work</li>
-                	<li>About</li>
+                	<li><a href="#">Home</a></li>
+               		<li><a href="#work">Work</a></li>
+                	<li><a href="#team">About</a></li>
                </ul> 
             </div>    
         </nav>
@@ -37,14 +37,14 @@
                 <div class="col-8-12 block-center"> 
                 	<p>We Design<span>Things</span></p> 
                     <p>Loren ipsum dolor sit amet, indoctum dissentiet eam ne. Eum omnium docendi cu. Aliquid delenit an pri, mea nominavi menandri.</p>
-                    <a href="#">Hire Us</a> 
-                    <a href="#">View Our Work</a>
+                    <a href="#team" class="btn-1">Hire Us</a> 
+                    <a href="#work" class="btn-2">View Work</a>
                 </div>
             </div>
         </div>    
     </div>      
 </header>
-<section class="wrapper">
+<section class="wrapper" id="work">
 	<header>
     	<h2>What We Do</h2>
         <div></div>
@@ -52,35 +52,35 @@
     <div class="row">   
         <section class="col-1-4">
         	<header>
-            	<img src="img/phone.png" alt="" width="30">  <!------------------is this right???--------------------------->
+            	<img src="img/print.png" alt="" width="60">  <!------------------is this right???--------------------------->
                 <h3>Print Design</h3>
             </header>
             <p>Nam purto solet eu, vero mediocrem hendrerit ad ius.</p>
         </section> 
         <section class="col-1-4">
         	<header>
-            	<img src="img/phone.png" alt="" width="30">
+            	<img src="img/interactive.png" alt="" width="60">
                 <h3>Interactive</h3>
             </header>
             <p> Vix ad posse impetus, vis id quem nobis suscipiantur. His an assum omnium periculis.</p>
         </section>
        	<section class="col-1-4">
          	<header>
-            	<img src="img/phone.png" alt="" width="30">
+            	<img src="img/phone.png" alt="" width="60">
                 <h3>App Design</h3>
             </header>
             <p>Exerci antiopam constituam per ex. pro odio enim te, ut eam quidam docendi ancillae. Id nisi appareat mel.</p>
        	</section> 
         <section class="col-1-4">
          	<header>
-            	<img src="img/phone.png" alt="" width="30">
+            	<img src="img/branding.png" alt="" width="60">
                 <h3>Branding</h3>
             </header>
             <p>Lorem ipsum dolor sit amet, indoctum dissentiet eam ne. Eum omnium docendi cu.</p>          
         </section>  
     </div>        
 </section>
-<section> <!--background color goes on this-->
+<section id="team"> <!--background color goes on this-->
 	<div class="wrapper">
         <div class="row">
             <div class="col-8-12 block-center">    
@@ -94,10 +94,10 @@
         <div class="row">
             <section class="col-1-2">    
                 <div class="row">
-                    <div class="col-1-4">
-                    	<img>
+                    <div class="col-1-4 f-left">
+                    	<img src="img/John.jpg" alt="Jon Smith" width="70">
                     </div>
-                    <div class="col-3-4">
+                    <div class="col-3-4 f-right">
                         <header>
                         	<h3>John Doe</h3>
                         </header>
@@ -111,10 +111,10 @@
             </section>  
             <section class="col-1-2">    
                 <div class="row">
-                    <div class="col-1-4">
-                    	<img>
+                    <div class="col-1-4 f-left">
+                    	<img src="img/Mary.jpg" alt="Jon Smith" width="70">
                     </div>
-                    <div class="col-3-4">
+                    <div class="col-3-4 f-right">
                         <header>
                         	<h3>Mary Smith</h3>
                         </header>
@@ -131,7 +131,7 @@
             <section class="col-1-2 f-left">    
                 <div class="row">
                     <div class="col-1-4 f-left">
-                    	<img>
+                    	<img src="img/Jane.jpg" alt="Mary Smith" width="70">
                     </div>
                     <div class="col-3-4 f-right">
                         <header>
@@ -148,7 +148,7 @@
            <section class="col-1-2 f-right">    
                 <div class="row">
                     <div class="col-1-4 f-left">
-                    	<img>
+                    	<img src="img/Jon.jpg" alt="Jon Smith" width="70">
                     </div>
                     <div class="col-3-4 f-right">
                     	<header>
@@ -165,25 +165,24 @@
         </div>  
     </div>     
 </section>          
-<footer>
+<footer id="footer">
     <div class="wrapper">
         <div class="row">
             <div class="col-1-4">
-            	<img>
+            	<img><a href="#" target="_blank" class="sprite-2 logo"></a>
             	<div class="f-left"></div>
             </div> 
             <div class="col-1-4 f-left">
-            	<img><a><img src="img/logo.png" alt="Flow Creative" width="170"></a>
                 <ul>
-                	<li>Home</li>
-               		<li>Work</li>
-                	<li>About</li>
+                	<li><a href="#">Home</a></li>
+               		<li><a href="#work">Work</a></li>
+                	<li><a href="#team">About</a></li>
                </ul> 
                	
             </div>  
-            <div class="col-1-6 f-right">
+            <div class="col-1-8 f-right">
             	<h4>Contact Us</h4>
-                <address>6041 Old York Road Dekalb, IL 60115</address>         
+                <address>6041 Old York Road<span>Dekalb, IL 60115</span></address>         
             </div>
         </div>
     </div>
