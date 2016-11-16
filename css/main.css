@@ -98,29 +98,10 @@ h2, h3, h4, li {
 	color: #00999d;
 }
 
-#hero p:first-child {
-	font-weight: 600;
+
+#hero p, #hero p:first-child {
 	color: #ffffff;
 }
-
-#hero p {
-	color: #ffffff;
-	margin: 2rem;
-}
-
-h2 {
-	text-transform: uppercase;
-	font-size: 1.6rem;	
-}
-
-h3 {
-	font-size: 1.3rem;
-}
-
-
-
-/* ============== 1.2 Body Copy ====================== */
-
 
 #hero span {
 	font-weight: 100;
@@ -141,6 +122,20 @@ h3 {
 	font-size: 1.2rem;
 	line-height: 1.9rem;
 }
+
+h2 {
+	text-transform: uppercase;
+	font-size: 1.6rem;	
+}
+
+h3 {
+	font-size: 1.3rem;
+}
+
+
+
+/* ============== 1.2 Body Copy ====================== */
+
 
 h3 > p {
 	font-size: .8rem;
@@ -297,12 +292,12 @@ ul {
 	margin-bottom: 20px;
 }
 
-#header {
-	background: #e8e9e9;
-}
-
 #work, #team, #footer {
 		padding-top: 40px;
+}
+
+#header {
+	background: #e8e9e9;
 }
 
 h1 {
@@ -392,9 +387,6 @@ img {
 
 /* ========================== 6.0 COLUMNS ============================ */
 
-
-
-/* Full Amounts */
 
 
 
@@ -618,6 +610,10 @@ img {
 		margin-top: .25rem;
 	}
 	
+	footer .col-1-4, .col-1-6, h4, address  {
+		text-align: left;
+	}
+
 	#team {
 		padding-top: 40px;
 	}	
@@ -630,11 +626,6 @@ img {
 	.col-3-4 {
 		padding-right: 30px;
 	}
-	
-	footer .col-1-4, .col-1-6, h4, address  {
-		text-align: left;
-	}
-
 
 	.col-1-6:nth-child(3), .col-1-7, .col-1-8:nth-child(4), .col-1-9:nth-child(3), .col-1-9:nth-child(6), .col-1-10:nth-child(5), .col-1-11, .col-1-12:nth-child(4), .col-1-12:nth-child(8), col-1-6-sm, .col-1-4:last-child  {
 		padding-right: 0;    
